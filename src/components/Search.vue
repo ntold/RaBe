@@ -23,7 +23,10 @@ export default {
   computed: {
     filteredList() {
       return this.list.filter(post => {
-        return post.title.toLowerCase().includes(this.search.toLowerCase())
+      var pattern = new RegExp(this.search, "i");
+      return (
+      	post.title.match(pattern);
+	);
       })
     }
   }
