@@ -50,9 +50,6 @@ export default {
 </script>
 
 <style scoped>
-.nav{
-}
-
 .bullet:hover{
   background-color: rgba(0, 0, 0, 0.5);
   cursor: pointer;
