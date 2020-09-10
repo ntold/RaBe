@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <Songs />
-    <Navigation style="background-color: transparent;"/>
+    <Navigation class="navigation" />
   </div>
 </template>
 
@@ -22,4 +22,10 @@ import Navigation from '@/components/Navigation.vue'
 .wrapper{
   height: 100%
 }
+
+.navigation{
+  background-color: transparent;
+}
+
+
 </style>
