@@ -277,11 +277,11 @@ import Search from '@/components/Search.vue'
         let one = document.getElementsByClassName('song-item')
         let two = document.getElementsByClassName('toggle-visibility')
           
-        one.addEventListener('mouseover', function(){
+        one.addEventListener('mouseover', () => {
           two.style.opacity = 1
           one.style.backgroundColor = "red"
         }, true)
-        one.addEventListener('mouseout', function(){
+        one.addEventListener('mouseout', () => {
           two.style.opacity = 0
           one.style.backgroundColor = "transparent"
         }, true)
