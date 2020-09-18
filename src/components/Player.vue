@@ -7,11 +7,6 @@
 <script>
 export default {
   name: "Player",
-  data() {
-    return {
-
-    }
-  },
   methods: {
     toggleDrawer(){
       this.$store.commit('toggleDrawer')
