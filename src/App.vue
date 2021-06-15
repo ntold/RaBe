@@ -1,7 +1,7 @@
 <template>
   <v-app class="back">
     <v-content>
-      <Home/>
+      <Home />
     </v-content>
     <Player />
   </v-app>
